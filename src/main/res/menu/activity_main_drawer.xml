@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="@string/upcoming">
+        android:menuCategory="secondary"
+        <menu>
+            <item
+                android:id="@+id/AlJazera"
+                android:icon="@drawable/ny"
+                android:title="@string/aljazera"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+    <item android:title="@string/settings">
+        android:menuCategory="secondary"
+        <menu>
+            <item
+                android:icon="@drawable/info1"
+                android:title="@string/about_us"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/b"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/h"
+            android:title="@string/hindustan_times"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/t"
+            android:title="@string/toi"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/sky"
+            android:icon="@drawable/d"
+            android:title="@string/jagran"
+            android:menuCategory="secondary"/>
+    </group>
+</menu>
