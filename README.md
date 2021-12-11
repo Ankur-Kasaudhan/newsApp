@@ -1,2 +1,2 @@
-# new-App
+# news-App
 Basic News App
